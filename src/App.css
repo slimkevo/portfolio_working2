@@ -251,7 +251,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: inline-block;
 }
 .banner h1 {
-  font-size: 45px;
+  font-size: 32px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -284,12 +284,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 .banner img {
-  animation: updown 3s linear infinite;
+  animation: updown 5s linear infinite;
+  width: 100%; /* Adjust the width as needed */
+  max-width: 300px; /* Set a maximum width */
+  height: auto;
+  margin-left: 100px;
 }
 @keyframes updown {
     0% {
         transform: translateY(-20px);
-    }
+    } 
     50% {
         transform: translateY(20px);
     }
